@@ -1,3 +1,3 @@
 # Graffiti
 
-<img src="insert-logo.png">
+<img src="insert-logo.png" width="400">
