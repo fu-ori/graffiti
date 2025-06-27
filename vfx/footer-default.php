@@ -21,5 +21,6 @@
 </div>
 
 <div class="footer-default-copyright">
-    <p>&copy; <?php echo date("Y"); ?> Graffiti | All rights reserved.</p>
+    <div class="clear10x"></div>
+    <p>&copy; <?php echo date("Y"); ?>&nbsp;<?php echo $sitetitle; ?> | All rights reserved.</p>
 </div>
