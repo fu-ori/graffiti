@@ -1,0 +1,21 @@
+/*********************************************
+
+align
+
+*********************************************/
+.align-vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*********************************************
+
+titles
+
+*********************************************/
+.title-1{
+    font-size: 30px !important;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+}

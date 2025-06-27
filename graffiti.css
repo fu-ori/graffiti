@@ -1,0 +1,40 @@
+/*********************************************
+
+Define your main colors
+
+*********************************************/
+:root {    
+    --color1: #ff4780;
+    --color2: #d9f9ff;
+    --color3: #00dfec;
+    --color4: #006a8c;
+    --color5: #010539;
+}
+
+.insert-color1{ color: var(--color1) !important; }
+.insert-color2{ color: var(--color2) !important; }
+.insert-color3{ color: var(--color3) !important; }
+.insert-color4{ color: var(--color4) !important; }
+.insert-color5{ color: var(--color5) !important; }
+
+/*********************************************
+
+Define your primary font
+
+*********************************************/
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+body{
+    font-family: "Geist", sans-serif !important;
+}
+
+/*********************************************
+
+Graffiti here!!!
+
+*********************************************/
+.footer-default-social ul li a{
+    color: var(--color1);
+}
+.footer-default-social ul li a:hover{
+    color: var(--color2);
+}
