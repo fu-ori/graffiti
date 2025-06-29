@@ -1,6 +1,36 @@
+<!-- *********************************************
+
+image left
+
+********************************************* -->
+<style type="text/css">
+    .image-left{
+        display: flex;
+    }
+    .image-left div{
+        width: 50%;
+    }
+    .image-left img{
+        width: 100%;
+    }
+    .image-left-content{
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 16px;
+    }
+    @media (orientation: portrait) {
+        .image-left{
+            display: block;
+        }
+        .image-left div{
+            width: 100%;
+        }
+    }
+</style>
+
 <div class="image-left">
     <div class="image-left-img">
-        <img src="media/image-1.jpeg">
+        <img src="gfx-assets/image-1.jpeg">
     </div>
 
     <div class="image-left-content align-vertical">

@@ -1,5 +1,6 @@
 <!-- bio -->
-<?php include "bio.php" ?>
+
+<?php include "bio.php"; ?>
 
 <!--
 
@@ -10,46 +11,56 @@
  \______  /|____|_  /\____|__  /\___  /    \___  /   |___| |____|   |___|
         \/        \/         \/     \/         \/                        
 
-v0.2 -->
+-->
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <?php 
-        
+
         include "sys/meta.php";
         include "sys/engine.php"; 
-        
+
         ?>
     </head>
     <body>
-        
-        <!-- header vfx -->
-        
-        <header>
-            <?php include "vfx/logo-center.php"; ?>
-        </header>
-        
+
+        <!-- vfx loading -->
+
+        <?php include "gfx/loading-gif.php"; ?>
+
         <!-- ####################################################### -->
 
-        <!-- your vfx content -->
-        
+        <!-- vfx header -->
+
+        <header>
+            <?php include "gfx/logo-center.php"; ?>
+        </header>
+
+        <!-- ####################################################### -->
+
+        <!-- your visual -->
+
         <main>
             <div class="clear30x"></div>
-            <?php include "vfx/image-left.php"; ?>
+            <?php include "gfx/image-left.php"; ?>
             <div class="clear60x"></div>
         </main>
-        
+
         <!-- ####################################################### -->
 
-        <!-- footer vfx -->
-        
+        <!-- footer -->
+
         <footer>
-            <?php include "vfx/footer-default.php"; ?>
+            <?php 
+            
+            include "gfx/footer-default.php"; 
+            include "graffiti.php"; 
+            
+            ?>
         </footer>
-        
+
         <!-- ####################################################### -->
 
-        <?php include "graffiti.php"; ?>
     </body>
 </html>

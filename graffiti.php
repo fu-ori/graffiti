@@ -4,18 +4,25 @@
 <!-- ##################################################################################-->
 <!-- ##################################################################################-->
 <!-- ##################################################################################-->
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="gfx-motion/logo-center.js"></script>
+<script src="gfx-motion/image-left.js"></script>
+<script type="text/javascript">
+    function motion(){
 
-<script>
-    document.addEventListener("DOMContentLoaded", (event) => {
-        gsap.registerPlugin(ScrollTrigger)
-
-        // level 2
-        gsap.set(".image-left-img", {opacity: 0, x: -5000}); 
-        gsap.set(".image-left-title", {opacity: 0, x: 5000}); 
+        // remove loading after page completed
+        let loading = gsap.timeline();
+        loading.to(".loading-object", { duration: 1, y: -1000, opacity: 0 });
+        loading.to(".loading", {
+            y: -1100,
+            duration: .6,
+            opacity: 1,
+            onComplete: vfx
+        }, "-=0.7");
         
-        gsap.to(".image-left-img", {duration: 1, x: 0, opacity: 1});
-        gsap.to(".image-left-title", {duration: 1, x: 0, opacity: 1});
-    });
+        // start motions!!!
+        function vfx(){
+            logocenter();
+            setTimeout(() => { imageleft(); }, 400);
+        }
+    }
 </script>
