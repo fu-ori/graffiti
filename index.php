@@ -27,7 +27,7 @@
 
         <!-- vfx loading -->
 
-        <?php //include "gfx/loading-gif.php"; ?>
+        <?php include "gfx/loading-gif.php"; ?>
 
         <!-- ####################################################### -->
 
@@ -42,9 +42,8 @@
         <!-- your visual -->
 
         <main>
-            <div class="clear30x"></div>
             <?php include "gfx/image-left.php"; ?>
-            <div class="clear60x"></div>
+            <?php include "gfx/scroll-basic.php"; ?>
         </main>
 
         <!-- ####################################################### -->

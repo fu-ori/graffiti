@@ -1,9 +1,3 @@
-<!-- import motions -->
-<!--
-<script src="gfx-motion/logo-center.js"></script>
-<script src="gfx-motion/image-left.js"></script>
--->
-
 <!-- ##################################################################################-->
 <!-- ##################################################################################-->
 <!-- ######################             GSAP MOTION                 ###################-->
@@ -12,7 +6,8 @@
 <!-- ##################################################################################-->
 
 <script type="text/javascript">
-    function motion(){
+    
+    function loading(){
 
         // remove loading after page completed
         let loading = gsap.timeline();
@@ -27,11 +22,11 @@
             y: -1100,
             duration: .6,
             opacity: 1,
-            onComplete: vfx
+            onComplete: startgfx
         }, "-=0.3");
 
         // start motions!!!
-        function vfx(){
+        function startgfx(){
             logocenter();
             setTimeout(() => { imageleft(); }, 800);
         }

@@ -4,6 +4,9 @@ footer default
 
 ********************************************* -->
 <style type="text/css">
+    .footer-default-social{
+        padding-top: 40px;
+    }
     .footer-default-copyright p{
         text-align: center;
         font-size: 10px;
@@ -27,6 +30,7 @@ footer default
         font-size: 30px;
     }
 </style>
+
 <div class="footer-default-social">
     <ul>
         <li>

@@ -5,6 +5,7 @@ logo center
 ********************************************* -->
 <style type="text/css">
     .loading{
+        z-index: 99;
         position: fixed;
         width: 100%;
         height: 100vh;
