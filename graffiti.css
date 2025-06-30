@@ -17,6 +17,12 @@ Define your main colors
 .insert-color4{ color: var(--color4) !important; }
 .insert-color5{ color: var(--color5) !important; }
 
+.background-color1{ background-color: var(--color1) !important; }
+.background-color2{ background-color: var(--color2) !important; }
+.background-color3{ background-color: var(--color3) !important; }
+.background-color4{ background-color: var(--color4) !important; }
+.background-color5{ background-color: var(--color5) !important; }
+
 /*********************************************
 
 Define your primary font
