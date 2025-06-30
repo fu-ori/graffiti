@@ -27,7 +27,7 @@
 
         <!-- vfx loading -->
 
-        <?php include "gfx/loading-gif.php"; ?>
+        <?php //include "gfx/loading-gif.php"; ?>
 
         <!-- ####################################################### -->
 
